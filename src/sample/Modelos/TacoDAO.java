@@ -52,7 +52,7 @@ public class TacoDAO {
 
     private Connection con;
     public TacoDAO(){
-        con = conexion.con;
+        con = conexion.getConnection();
 
     }
     public void insTaco(){
