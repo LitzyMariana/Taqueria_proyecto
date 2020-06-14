@@ -44,7 +44,6 @@
             </Button>
             <Label id="lblMensajeError" fx:id="lblErrorLogin" layoutX="61.0" layoutY="250.0" prefHeight="17.0" prefWidth="177.0" textFill="#d00a0a" />
             <Button id="btnCancelar" fx:id="btnCancelar" layoutX="134.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnCancelarOnAction" style="-fx-background-color: #c62828;" text="X" textFill="WHITE" />
-            <ComboBox fx:id="cmbRol" layoutX="84.0" layoutY="101.0" prefWidth="125.0" promptText="Rol" />
          </children></AnchorPane>
    </right>
 </BorderPane>
